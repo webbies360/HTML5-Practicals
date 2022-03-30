@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Attribute Examples</title>
+
+    <style>
+        /* Style the element with the id "myHeader" */
+        #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+        }
+
+        /* Style all elements with the class name "city" */
+        .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+        }
+
+        /* Style the element with the id "mySecondHeader" */
+        #mySecondHeader{
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- An element with a unique id -->
+    <h1 id="myHeader">My Cities</h1>
+
+    <a href="#lag">Jump to Lagos</a>
+
+    <!-- Multiple elements with same class -->
+    <h2 class="city">London</h2>
+    <p>London is the capital of England. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, numquam debitis excepturi neque voluptatem eos fugiat, animi natus ipsum in quam magnam! Numquam consequuntur, reiciendis eius animi aut voluptatem quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in neque fuga praesentium corporis voluptas sit obcaecati eius necessitatibus et, error quia doloremque saepe libero molestiae explicabo accusantium dolor illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe necessitatibus possimus exercitationem ipsa delectus quia rerum hic reiciendis commodi dolor excepturi quam veniam ducimus doloremque vero fugiat, ea repudiandae veritatis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, numquam debitis excepturi neque voluptatem eos fugiat, animi natus ipsum in quam magnam! Numquam consequuntur, reiciendis eius animi aut voluptatem quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in neque fuga praesentium corporis voluptas sit obcaecati eius necessitatibus et, error quia doloremque saepe libero molestiae explicabo accusantium dolor illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe necessitatibus possimus exercitationem ipsa delectus quia rerum hic reiciendis commodi dolor excepturi quam veniam ducimus doloremque vero fugiat, ea repudiandae veritatis.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, numquam debitis excepturi neque voluptatem eos fugiat, animi natus ipsum in quam magnam! Numquam consequuntur, reiciendis eius animi aut voluptatem quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in neque fuga praesentium corporis voluptas sit obcaecati eius necessitatibus et, error quia doloremque saepe libero molestiae explicabo accusantium dolor illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe necessitatibus possimus exercitationem ipsa delectus quia rerum hic reiciendis commodi dolor excepturi quam veniam ducimus doloremque vero fugiat, ea repudiandae veritatis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, numquam debitis excepturi neque voluptatem eos fugiat, animi natus ipsum in quam magnam! Numquam consequuntur, reiciendis eius animi aut voluptatem quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in neque fuga praesentium corporis voluptas sit obcaecati eius necessitatibus et, error quia doloremque saepe libero molestiae explicabo accusantium dolor illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe necessitatibus possimus exercitationem ipsa delectus quia rerum hic reiciendis commodi dolor excepturi quam veniam ducimus doloremque vero fugiat, ea repudiandae veritatis.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, numquam debitis excepturi neque voluptatem eos fugiat, animi natus ipsum in quam magnam! Numquam consequuntur, reiciendis eius animi aut voluptatem quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in neque fuga praesentium corporis voluptas sit obcaecati eius necessitatibus et, error quia doloremque saepe libero molestiae explicabo accusantium dolor illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe necessitatibus possimus exercitationem ipsa delectus quia rerum hic reiciendis commodi dolor excepturi quam veniam ducimus doloremque vero fugiat, ea repudiandae veritatis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, numquam debitis excepturi neque voluptatem eos fugiat, animi natus ipsum in quam magnam! Numquam consequuntur, reiciendis eius animi aut voluptatem quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in neque fuga praesentium corporis voluptas sit obcaecati eius necessitatibus et, error quia doloremque saepe libero molestiae explicabo accusantium dolor illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe necessitatibus possimus exercitationem ipsa delectus quia rerum hic reiciendis commodi dolor excepturi quam veniam ducimus doloremque vero fugiat, ea repudiandae veritatis.</p>
+
+    <h2 class="city" id="lag">Lagos</h2>
+
+    <h2>Using The id Attribute in JavaScript</h2>
+    <p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+
+    <h1 id="mySecondHeader">Hello World!</h1>
+    <button onclick="displayResult()">Change text</button>
+
+    <script>
+        function displayResult() {
+        document.getElementById("mySecondHeader").innerHTML = "Have a nice day!";
+        }
+    </script>
+    
+</body>
+</html>
