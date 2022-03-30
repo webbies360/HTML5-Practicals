@@ -10,15 +10,12 @@
 
 ## Download eBook
 
-[Live Demo Link](https://www.dropbox.com/s/4sx46syr54f7yj8/HTML5%20PRACTICALS.pdf?dl=0)
+[Download Link](https://www.dropbox.com/s/4sx46syr54f7yj8/HTML5%20PRACTICALS.pdf?dl=0)
 
 
 ## Getting Started
 
 **Open your favourite code editor to start a new file, or Download and install Microsoft Visual Code**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
